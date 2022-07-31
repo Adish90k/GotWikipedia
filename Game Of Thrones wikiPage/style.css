@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:wght@200&display=swap');
+nav{
+     width: 100%;
+     height: 70px;
+     display: flex;
+     align-items: center;
+  background-color:rgba(0, 0, 0, 0.219);
+}
+
+.Maincontainer{
+    height: inherit;
+     width: 100%;
+ background: linear-gradient(transparent,rgb(0, 0, 0)),url("25493.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.SeaSonsli{
+    color: aliceblue;
+    margin-left: 3rem;
+    text-decoration: none;
+    display: inline-block;
+font-family: 'Mulish', sans-serif;
+}
+.SeaSonsli a{
+    text-decoration: none;
+    color: white;
+}
+.SeaSonsli a:hover{
+    opacity: 50%;
+    transition: all 1s;
+}
+.MaininfoContainer{
+   height: 50vh;
+   width: 37vw;
+ margin-top: 0vh;
+ margin-left: 2rem;
+
+   font-family: 'Montserrat', sans-serif;
+/* font-family: 'Mulish', sans-serif; */
+   color: white;
+}
+.MainCastContent{
+    margin-top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item img{
+    height: 120px;
+    border-radius: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 0.4rem;
+    color: white;
+    width: 270px;
+    height: 200px;
+}
+.item h2{
+ font-size: 1.2rem;
+ font-family: 'Mulish', sans-serif;
+}
+.item h4{
+    font-size: 0.6rem;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+.item p{
+    font-size: 0.49rem;
+    opacity: 0;
+    text-align: center;
+   transition: all 1s;
+}
+.item:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.item:hover p{
+    opacity: 100%;
+    transition: all 1s;
+     
+}
+.Casts{
+    margin-left: 2rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+.Availabletxt{
+    margin-top: 0.5rem;
+    color: rgb(190, 239, 118);
+}

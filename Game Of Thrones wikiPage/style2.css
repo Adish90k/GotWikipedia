@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+}
+html{
+    font-size: 100%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+
+    align-items: center;
+ background-color:transparent;
+}
+.SeaSonsli{
+  
+    color: aliceblue;
+    margin-left: 3rem;
+    text-decoration: none;
+    display: inline-block;
+font-family: 'Mulish', sans-serif;
+}
+.SeaSonsli a{
+  
+    text-decoration: none;
+    color: white;
+}
+.SeaSonsli a:hover{
+    opacity: 50%;
+    transition: all 1s;
+}
+
+.Mainbackimg{
+    height: 100vh;
+    width: 100%;
+  position: relative;
+
+ background: linear-gradient(transparent,rgb(0, 0, 0)),url("25501.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+    
+}
+
+.Availabletxt{
+    margin-top: 0.5rem;
+    color: rgb(190, 239, 118);
+}
+.MaininfoContainer{
+    height: 50vh;
+    width: 37vw;
+  margin-top: 0vh;
+  margin-left: 2rem;
+ 
+    font-family: 'Montserrat', sans-serif;
+ /* font-family: 'Mulish', sans-serif; */
+    color: white;
+ }
+ .AllseasonsMaincontent{
+ 
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .Season1{
+    height: 95%;
+    width: 98%;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .episode{
+    width: 270px;
+    margin: 0.6rem;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    padding:1rem;
+    position: relative;
+    transition: all 1s;
+ }
+ .episode:hover{
+  transform: scale(1.1);
+ }
+ .episode img{
+    height: 140px;
+    width: 98%;
+    border-radius: 10px;
+ }
+ .episode h3{
+    text-align: center;
+    width: 100%;
+ }
+ .episode p{
+    font-size: 0.45rem;
+    text-align: center;
+    opacity: 0%;
+    color: white;
+    transition: all 1s;
+ }
+.episode:hover p{
+    opacity: 100%;
+}
+ .episode span{
+    position: absolute;
+    right: 10%;
+    color: rgb(61, 255, 47);
+    font-weight: 600;
+    top: 5%;
+ }
+ .Season1headtxt{
+    width: 95%;
+    text-align: start;
+  
+ }
+ .AllSeasonstxt{
+    margin-top: 2rem;
+    margin-left: 2rem;
+ }
